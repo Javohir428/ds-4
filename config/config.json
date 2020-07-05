@@ -1,0 +1,8 @@
+{
+    "API_PORT": {
+      "port": 5000
+    },
+    "FRONTEND_PORT": {
+      "port": 5010
+    }
+}
