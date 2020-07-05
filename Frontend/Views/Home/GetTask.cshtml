@@ -1,0 +1,14 @@
+﻿@model BackendApi.ProcessingResult
+
+@{
+    ViewData["Title"] = "Text details";
+}
+
+@if (Model.ProcessingComplete)
+{
+    <p>Text rank: @Model.TextRank</p>
+}
+else
+{
+    <p>Error. Couldn't get text rank</p>
+}
